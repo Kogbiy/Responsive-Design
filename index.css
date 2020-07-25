@@ -101,3 +101,45 @@ header nav a {
     margin: 0 5%;
     text-align: center;
 }
+
+.container-2 {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.project-container{
+    width:100%;
+    height: auto;
+    margin:0 5%;
+    padding: 5px 10px 12px 20px;
+    list-style: none;
+}
+
+.container-2 .project-container p{
+    text-align: center;
+    color: red;
+}
+
+@media only screen and (max-width: 800px){
+    body {
+        background-color: red;
+        font-weight: bold;
+    }
+    header{
+        background-color: yellow;
+        width: 60%;
+    }
+}
+
+@media only screen and (max-width: 500px ){
+    body{
+        background-color: lightblue;
+        color: white;
+    }
+    header nav a{
+        color: blue;
+    }
+    .container-1{
+        width: 40%;
+    }
+}
